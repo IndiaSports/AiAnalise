@@ -1,1 +1,54 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - HinglishCricketAI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">🏏 HinglishCricketAI</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Live Matches</a></li>
+            <li><a href="predictions.html">AI Predictions</a></li>
+            <li><a href="subscription.html">Subscribe</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Welcome, Bhai!</h3>
+            <p style="margin:1rem 0;">Plan: <strong style="color:var(--secondary)">Premium</strong></p>
+            <ul style="list-style:none; margin-top:2rem;">
+                <li style="margin:0.5rem 0;"><a href="#" style="text-decoration:none; color:var(--text);">📊 My Stats</a></li>
+                <li style="margin:0.5rem 0;"><a href="#" style="text-decoration:none; color:var(--text);">💰 Payment History</a></li>
+                <li style="margin:0.5rem 0;"><a href="#" style="text-decoration:none; color:var(--text);">⚙️ Settings</a></li>
+                <li style="margin:0.5rem 0;"><a href="#" style="text-decoration:none; color:var(--text);">🚪 Logout</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <h2>Your AI Predictions History</h2>
+            
+            <div class="prediction-card" style="margin-top:1.5rem;">
+                <h3>Yesterday: IND vs AUS ✓ Correct</h3>
+                <p>Prediction: India win | Actual: India won by 23 runs</p>
+                <p style="color:var(--secondary); font-weight:bold;">Profit: +₹500</p>
+            </div>
+
+            <div class="prediction-card">
+                <h3>2 days ago: ENG vs SA ✗ Wrong</h3>
+                <p>Prediction: England win | Actual: SA won by 3 wickets</p>
+                <p style="color:#ef4444; font-weight:bold;">Loss: -₹300</p>
+            </div>
+
+            <h3 style="margin-top:2rem;">Accuracy: <strong style="color:var(--secondary)">72%</strong> (Last 30 days)</h3>
+        </main>
+    </div>
+</body>
+</html>
